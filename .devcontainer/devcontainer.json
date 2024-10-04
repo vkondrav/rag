@@ -1,0 +1,6 @@
+{
+    "name": "Python Development Environment",
+    "image": "python:3",
+    "runArgs": ["--network", "host"],
+    "postCreateCommand": ".devcontainer/post-create.sh"
+}

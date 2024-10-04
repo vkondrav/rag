@@ -1,0 +1,5 @@
+version: 3
+endpoints:
+  - name: basic
+    upstream:
+      url: web:5001
